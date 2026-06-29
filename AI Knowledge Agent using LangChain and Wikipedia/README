@@ -1,0 +1,53 @@
+# Wikipedia Research Agent using ReAct Prompting
+
+## Objective
+
+Build an AI application that combines reasoning with external tool usage.
+
+The application searches Wikipedia using LangChain tools and then uses Gemini to generate a final response.
+
+## Concepts Used
+
+- ReAct Prompting
+- LangChain Community Tools
+- Wikipedia Search
+- Prompt Engineering
+- Gemini API
+
+## Workflow
+
+User Question
+
+↓
+
+Wikipedia Search
+
+↓
+
+Retrieve Information
+
+↓
+
+Reasoning using Gemini
+
+↓
+
+Final Answer
+
+## Technologies
+
+- Python
+- Streamlit
+- LangChain Community
+- Wikipedia
+- Google Gemini API
+
+## Run
+
+```bash
+pip install -r requirements.txt
+```
+
+```bash
+streamlit run main.py
+```

@@ -1,0 +1,51 @@
+# Chain of Thought Reasoning Assistant
+
+## Objective
+
+Build an AI assistant that solves math and logic problems using Chain of Thought Prompting.
+
+## Concepts Used
+
+- Chain of Thought (CoT) Prompting
+- Step-by-Step Reasoning
+- Prompt Engineering
+
+## Features
+
+- Solve math problems
+- Solve logic puzzles
+- Compare Normal Prompting vs Chain of Thought Prompting
+- Explain reasoning before answering
+
+## Technologies Used
+
+- Python
+- Streamlit
+- Google Gemini API
+- Prompt Engineering
+
+## Run
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run application:
+
+```bash
+streamlit run app.py
+```
+
+## Workflow
+
+User Problem
+↓
+Prompt Engineering
+↓
+Gemini Model
+↓
+Step-by-Step Reasoning
+↓
+Final Answer

@@ -1,0 +1,169 @@
+# 🤖 AI Code Review & Self-Reflection Assistant
+
+## Overview
+
+The AI Code Review & Self-Reflection Assistant is a Streamlit-based application that demonstrates the **Self-Reflection & Critique Prompt Engineering** technique.
+
+Instead of generating code in a single step, the application follows a **multi-turn prompt pipeline** where the AI first writes Python code, then reviews its own work, and finally improves the code based on its own feedback.
+
+This project showcases how Large Language Models can iteratively refine their own outputs to produce higher-quality solutions.
+
+---
+
+## Prompt Engineering Technique
+
+**Self-Reflection & Critique Prompting**
+
+This technique encourages the AI to evaluate its own previous response, identify weaknesses, and generate an improved version.
+
+---
+
+## Workflow
+
+```
+User Coding Task
+        │
+        ▼
+Step 1: Generate Initial Python Code
+        │
+        ▼
+Step 2: Review the Generated Code
+        │
+        ▼
+Step 3: Improve the Code Based on the Review
+        │
+        ▼
+Display Final Improved Code
+```
+
+---
+
+## Features
+
+- 📝 Generate an initial Python solution
+- 🔍 Perform AI self-review
+- 🐞 Detect logic, readability, and coding issues
+- ✨ Automatically improve the generated code
+- 💻 Clean Streamlit interface
+- 🤖 Powered by Google Gemini
+
+---
+
+## Technologies Used
+
+- Python
+- Streamlit
+- Google Gemini API
+- Python Dotenv
+
+---
+
+## Project Structure
+
+```
+AI_Code_Review_Assistant/
+
+│── main.py
+│── requirements.txt
+│── .env
+│── README.md
+```
+
+---
+
+## Installation
+
+Clone or download the project.
+
+Install the required packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## Configure API Key
+
+Create a `.env` file.
+
+```env
+GEMINI_API_KEY=YOUR_API_KEY
+```
+
+---
+
+## Run the Application
+
+```bash
+streamlit run main.py
+```
+
+---
+
+## Example Input
+
+```
+Write a Python function to check whether a number is prime.
+```
+
+---
+
+## Application Output
+
+### 📝 Step 1 – Initial Code
+
+The AI generates a simple and correct Python implementation.
+
+↓
+
+### 🔍 Step 2 – Self Review
+
+The AI reviews its own code and identifies:
+
+- Readability improvements
+- Better variable names
+- Missing documentation
+- Missing type hints
+- Coding standard improvements
+- Possible optimizations
+
+↓
+
+### ✨ Step 3 – Improved Code
+
+The AI rewrites the code by:
+
+- Adding type hints
+- Improving readability
+- Adding documentation
+- Improving maintainability
+- Following Python best practices
+
+---
+
+## Learning Objectives
+
+This project demonstrates how AI systems can:
+
+- Generate code
+- Evaluate their own output
+- Detect weaknesses
+- Improve previous responses
+- Simulate a professional software review process
+
+---
+
+## Future Enhancements
+
+- Support multiple programming languages
+- Export reviewed code as a Python file
+- Download AI review reports
+- Compare original and improved code side by side
+- Maintain review history
+
+---
+
+## Author
+
+Developed as part of the **Prompt Engineering Training Program** to demonstrate the **Self-Reflection & Critique** prompting technique using Google Gemini and Streamlit.

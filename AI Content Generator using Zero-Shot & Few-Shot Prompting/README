@@ -1,0 +1,35 @@
+# AI Customer Support Assistant
+
+## Objective
+
+Build an AI-powered customer support assistant using Prompt Engineering.
+
+## Concepts Used
+
+- Zero-Shot Prompting
+- Few-Shot Prompting
+
+## Features
+
+- Complaint Classification
+- Sentiment Detection
+- Priority Assignment
+- Department Routing
+- Professional Response Generation
+
+## Technologies
+
+- Python
+- Streamlit
+- Google Gemini API
+- Prompt Engineering
+
+## Run
+
+Install requirements:
+
+pip install -r requirements.txt
+
+Run application:
+
+streamlit run app.py

@@ -1,0 +1,40 @@
+# AI Multi-Path Reasoning Evaluator
+
+## Objective
+
+Build an AI reasoning assistant using Tree of Thoughts (ToT) and Advanced Chain of Thought Prompting.
+
+## Concepts Used
+
+- Tree of Thoughts (ToT)
+- Advanced Chain of Thought
+- Reasoning Evaluation
+- Prompt Engineering
+
+## Features
+
+- Generates multiple reasoning paths
+- Evaluates each path
+- Compares solutions
+- Selects the best reasoning path
+- Produces final answer
+
+## Technologies Used
+
+- Python
+- Streamlit
+- Google Gemini API
+- Prompt Engineering
+
+## Run
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+Run:
+
+```bash
+streamlit run main.py
+```
